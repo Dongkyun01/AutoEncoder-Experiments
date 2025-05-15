@@ -15,21 +15,25 @@ AutoEncoder 모델 비교 실험
 
 디렉토리 구조
 
+```bash
 autoencoder/
 ├── model/
-│ ├── AutoEncoder.py
-│ ├── DenoisingAutoEncoder.py
-│ └── VariationalAutoEncoder.py
+│   ├── AutoEncoder.py
+│   ├── DenoisingAutoEncoder.py
+│   └── VariationalAutoEncoder.py
 ├── dataset.py
 ├── results_logger.py
 ├── train_autoencoder.py
 ├── train_denoising_autoencoder.py
 ├── train_vae.py
 ├── trained_models/
-│ └── *.pt
+│   ├── AutoEncoder.pt
+│   ├── DenoisingAutoEncoder.pt
+│   └── VariationalAutoEncoder.pt
 ├── reports/
-│ ├── report_AutoEncoder.png
-│ ├── report_DenoisingAE.png
-│ ├── report_VAE.png
-│ └── vae_loss_graph.png
-└── results.json
+│   ├── report_AutoEncoder.png
+│   ├── report_DenoisingAE.png
+│   ├── report_VAE.png
+│   └── vae_loss_graph.png
+├── results.json
+└── README.md
