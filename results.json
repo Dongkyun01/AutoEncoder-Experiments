@@ -1,0 +1,14 @@
+{
+  "AutoEncoder": {
+    "train_loss": 0.012317,
+    "test_loss": 0.011741
+  },
+  "DenoisingAutoEncoder": {
+    "train_loss": 0.017358,
+    "test_loss": 0.016668
+  },
+  "VariationalAutoEncoder": {
+    "train_loss": 113.78187,
+    "test_loss": 113.06716
+  }
+}
